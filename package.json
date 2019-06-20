@@ -1,0 +1,25 @@
+{
+  "name": "gear-bus",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "keys": "npx bibus new",
+    "start": "npm run keys && npx bitbus start", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gear-sv/gear-bus.git"
+  },
+  "author": "Sean Pollock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gear-sv/gear-bus/issues"
+  },
+  "homepage": "https://github.com/gear-sv/gear-bus#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "bitbus": "0.0.78"
+  }
+}

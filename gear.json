@@ -1,0 +1,9 @@
+{
+  "bitbus": 1,
+  "name": "weathersv",
+  "from": 566470,
+  "q": {
+    "find": { "out.s1": "1LtyME6b5AnMopQrBPLk4FGN8UBuhxKqrn" },
+    "project": { "out.s2": 1 }
+  }
+}
