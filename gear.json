@@ -4,7 +4,8 @@
   "from": 591200,
   "q": {
     "find": {
-        "out.s1": "gear.sv"
+        "out.s1": "gear.sv",
+        "out.s2": "63eec681025b07b9aa9d3720a125ce33dfd46e0b940a518100811c1f4eea86f0"
       }
   }
 }
