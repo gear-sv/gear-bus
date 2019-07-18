@@ -20,3 +20,5 @@ Install node v 10+
 #### Cloud
 
 TODO: add cloud docs
+
+currently reachable @ `http://34.67.214.117:30007/`
