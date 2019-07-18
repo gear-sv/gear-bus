@@ -1,5 +1,5 @@
 # gear-bus
-![r2](r2.jpg)
+![r2](dock.jpg)
 
 ### Run
 
