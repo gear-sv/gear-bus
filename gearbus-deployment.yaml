@@ -1,20 +1,20 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: gear-bus
+  name: gearbus
 spec:
   selector:
     matchLabels:
-      app: gear-bus
+      app: gearbus
   replicas: 2
   template:
     metadata:
       labels:
-        app: gear-bus
+        app: gearbus
     spec:
       restartPolicy: Always
       containers:
-      - name: gear-bus
+      - name: gearbus
         image: interplanaria/bitbus
         #command: ["/bin/sh"] # <- for testing
         command: ["/bin/sh"]
@@ -30,6 +30,6 @@ spec:
       - name: test-volume
         hostPath:
         # directory location on host
-          path: /minikube-mount-test
+          path: /home/glenn.wolfe/gear-bus
         # this field is optional
           type: Directory

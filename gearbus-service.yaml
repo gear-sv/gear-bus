@@ -9,6 +9,7 @@ spec:
   ports: 
   - protocol: TCP
     port: 3007
+    nodePort: 30007
     targetPort: explorer
     
   
