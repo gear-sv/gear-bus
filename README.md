@@ -3,6 +3,8 @@
 
 ### Run
 
+#### Local
+
 Install node v 10+
 
 `npm i npx -g` install npx globally 
@@ -14,3 +16,7 @@ Install node v 10+
 `npm run keys` generates a new keypair
 
 `npm run start` starts bitbus server
+
+#### Cloud
+
+TODO: add cloud docs
