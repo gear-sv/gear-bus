@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "keys": "npx bibus new",
-    "start": "npm run keys && npx bitbus start", 
+    "keys": "npx bitbus new",
+    "start": "npm run keys && npx bitbus start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
